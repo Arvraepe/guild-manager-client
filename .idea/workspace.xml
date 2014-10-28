@@ -1,20 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" name="Default" comment="yo scaffolding angular bootstrap code">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/home.html" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/app/views/main.html" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/app/scripts/controllers/main.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/home.js" />
+    <list default="true" id="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/Guild.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/GuildEquipment.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/scripts/controllers/GuildHeroes.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/infrastructure/ServerCommunicator.js" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/guild-contracts.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/guild-equipment.html" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/app/views/guild-heroes.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/scripts/controllers/about.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/GuildContracts.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/scripts/controllers/home.js" afterPath="$PROJECT_DIR$/app/scripts/controllers/Home.js" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/app/views/about.html" afterPath="$PROJECT_DIR$/app/views/guild.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/scripts/app.js" afterPath="$PROJECT_DIR$/app/scripts/app.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/views/home.html" afterPath="$PROJECT_DIR$/app/views/home.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/index.html" afterPath="$PROJECT_DIR$/app/index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="guild-management.iws" />
     <ignored path=".idea/workspace.xml" />
-    <file path="/Dummy.txt" changelist="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" time="1414512688497" ignored="false" />
-    <file path="/main.html" changelist="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" time="1414512380475" ignored="false" />
-    <file path="/index.html" changelist="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" time="1414512660508" ignored="false" />
+    <file path="/Dummy.txt" changelist="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" time="1414516769287" ignored="false" />
+    <file path="/main.html" changelist="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" time="1414515591684" ignored="false" />
+    <file path="/index.html" changelist="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" time="1414515958819" ignored="false" />
+    <file path="/guild.html" changelist="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" time="1414516433277" ignored="false" />
+    <file path="/guild-heroes.html" changelist="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" time="1414516634637" ignored="false" />
+    <file path="/guild-contracts.html" changelist="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" time="1414515622102" ignored="false" />
+    <file path="/guild-equipment.html" changelist="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" time="1414515632715" ignored="false" />
+    <file path="/GuildContracts.js" changelist="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" time="1414515097721" ignored="false" />
+    <file path="/Home.js" changelist="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" time="1414515220868" ignored="false" />
+    <file path="/ServerCommunicator.js" changelist="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" time="1414515924888" ignored="false" />
+    <file path="/Guild.js" changelist="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" time="1414516365540" ignored="false" />
+    <file path="$USER_HOME$/Documents/Languages/JavaScript/NodeJS/guild-manager-server/Server.js" changelist="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" time="1414516255453" ignored="false" />
+    <file path="/Server.js" changelist="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" time="1414516253797" ignored="false" />
+    <file path="/GuildHeroes.js" changelist="b993dc67-ee5e-42b0-b96c-16b3ccaeb2b4" time="1414516614557" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,37 +52,37 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/index.html">
+      <file leaf-file-name="Guild.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/Guild.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="37" selection-start="692" selection-end="692" vertical-scroll-proportion="0.37688443">
+            <state line="12" column="54" selection-start="325" selection-end="361" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/home.html">
+      <file leaf-file-name="guild.html" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/guild.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="-0.0">
+            <state line="5" column="39" selection-start="195" selection-end="195" vertical-scroll-proportion="2.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="app.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
+      <file leaf-file-name="guild-heroes.html" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/guild-heroes.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="23" column="29" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+            <state line="10" column="65" selection-start="317" selection-end="317" vertical-scroll-proportion="0.38265306">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/home.js">
+      <file leaf-file-name="GuildHeroes.js" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/scripts/controllers/GuildHeroes.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="33" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
+            <state line="10" column="78" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -89,9 +107,20 @@
     <option name="changedFiles">
       <list>
         <option value="$PROJECT_DIR$/app/views/main.html" />
-        <option value="$PROJECT_DIR$/app/scripts/app.js" />
         <option value="$PROJECT_DIR$/app/scripts/controllers/home.js" />
+        <option value="$PROJECT_DIR$/app/scripts/app.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/Home.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/GuildEquipment.js" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/GuildContracts.js" />
+        <option value="$PROJECT_DIR$/app/views/home.html" />
+        <option value="$PROJECT_DIR$/app/views/guild-contracts.html" />
+        <option value="$PROJECT_DIR$/app/views/guild-equipment.html" />
+        <option value="$PROJECT_DIR$/app/infrastructure/ServerCommunicator.js" />
         <option value="$PROJECT_DIR$/app/index.html" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/Guild.js" />
+        <option value="$PROJECT_DIR$/app/views/guild.html" />
+        <option value="$PROJECT_DIR$/app/scripts/controllers/GuildHeroes.js" />
+        <option value="$PROJECT_DIR$/app/views/guild-heroes.html" />
       </list>
     </option>
   </component>
@@ -195,24 +224,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="styles" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guild-management" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="guild-management" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="app" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="scripts" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -253,7 +264,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="images" />
+              <option name="myItemId" value="infrastructure" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -266,6 +277,7 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="preferences.pluginManager" />
+    <property name="DefaultHtmlFileTemplate" value="Html5" />
     <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
   </component>
@@ -315,14 +327,18 @@
       <created>1414511511918</created>
       <updated>1414511511918</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="cleaning up the bootstrap">
+      <created>1414512722024</created>
+      <updated>1414512722024</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="22" width="1440" height="782" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.32930514" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32930514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -383,7 +399,7 @@
     <option name="WRAP_WHEN_TYPING_REACHES_RIGHT_MARGIN" value="false" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="yo scaffolding angular bootstrap code" />
+    <option name="LAST_COMMIT_MESSAGE" value="Some linking to back-end" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="false" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="false" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -398,6 +414,8 @@
     <option name="SHOW_FILE_HISTORY_AS_TREE" value="false" />
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
     <MESSAGE value="yo scaffolding angular bootstrap code" />
+    <MESSAGE value="cleaning up the bootstrap" />
+    <MESSAGE value="Some linking to back-end" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -422,30 +440,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/home.html">
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/GuildContracts.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="4" selection-start="4" selection-end="4" vertical-scroll-proportion="0.0">
+        <state line="13" column="29" selection-start="307" selection-end="307" vertical-scroll-proportion="0.30757096">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/GuildEquipment.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="35" selection-start="234" selection-end="234" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/scripts/app.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="23" column="29" selection-start="439" selection-end="439" vertical-scroll-proportion="0.0">
+        <state line="24" column="35" selection-start="511" selection-end="511" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/home.js">
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/Home.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="33" selection-start="344" selection-end="344" vertical-scroll-proportion="0.0">
+        <state line="11" column="28" selection-start="273" selection-end="273" vertical-scroll-proportion="0.26025236">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/guild-contracts.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="43" selection-start="43" selection-end="43" vertical-scroll-proportion="-0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/guild-equipment.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="43" selection-start="43" selection-end="43" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="46" selection-start="65" selection-end="65" vertical-scroll-proportion="0.04918033">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="37" selection-start="692" selection-end="692" vertical-scroll-proportion="0.37688443">
+        <state line="70" column="61" selection-start="2795" selection-end="2795" vertical-scroll-proportion="0.75409836">
+          <folding>
+            <marker date="1414516736000" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1414516736000" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/infrastructure/ServerCommunicator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="23" selection-start="194" selection-end="194" vertical-scroll-proportion="0.23659305">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/GuildHeroes.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="78" selection-start="277" selection-end="277" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/scripts/controllers/Guild.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="12" column="54" selection-start="325" selection-end="361" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/guild.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="39" selection-start="195" selection-end="195" vertical-scroll-proportion="2.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/guild-heroes.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="10" column="65" selection-start="317" selection-end="317" vertical-scroll-proportion="0.38265306">
           <folding />
         </state>
       </provider>

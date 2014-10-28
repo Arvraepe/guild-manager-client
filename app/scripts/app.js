@@ -23,9 +23,21 @@ angular
                 templateUrl: 'views/home.html',
                 controller: 'HomeCtrl'
             })
-            .when('/about', {
-                templateUrl: 'views/about.html',
-                controller: 'AboutCtrl'
+            .when('/guild', {
+                templateUrl: 'views/guild.html',
+                controller: 'GuildCtrl'
+            })
+            .when('/guild/contracts', {
+                templateUrl: 'views/guild-contracts.html',
+                controller: 'GuildContractsCtrl'
+            })
+            .when('/guild/heroes', {
+                templateUrl: 'views/guild-heroes.html',
+                controller: 'GuildHeroesCtrl'
+            })
+            .when('/guild/equipment', {
+                templateUrl: 'views/guild-equipment.html',
+                controller: 'GuildEquipmentCtrl'
             })
             .otherwise({
                 redirectTo: '/'

@@ -8,10 +8,6 @@
  * Controller of the guildManagementApp
  */
 angular.module('guildManagementApp')
-  .controller('AboutCtrl', function ($scope) {
-    $scope.awesomeThings = [
-      'HTML5 Boilerplate',
-      'AngularJS',
-      'Karma'
-    ];
-  });
+    .controller('GuildEquipmentCtrl', function ($scope) {
+        $scope.title = "Guild equipment";
+    });

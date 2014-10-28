@@ -1,0 +1,12 @@
+<div data-ng-controller="GuildHeroesCtrl">
+    <h1>{{title}}</h1>
+
+    <div data-ng-repeat="hero in heroes" class="row">
+        <div class="col-lg-6">
+            <strong>Name</strong>: {{hero.name}}
+        </div>
+        <div class="col-lg-6">
+            <strong>HP</strong>: {{hero.hp}}
+        </div>
+    </div>
+</div>
